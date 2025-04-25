@@ -1,17 +1,19 @@
 import 'package:get_it/get_it.dart';
-import 'package:mental_health_care/data/data_source/haru_data_source.dart';
-import 'package:mental_health_care/data/data_source/haru_data_source_impl.dart';
-import 'package:mental_health_care/data/repository/auth_repository_impl.dart';
-import 'package:mental_health_care/data/repository/haru_repository_impl.dart';
-import 'package:mental_health_care/domain/repository/auth_repository.dart';
-import 'package:mental_health_care/domain/repository/haru_repository.dart';
-import 'package:mental_health_care/domain/use_case/get_haru_use_case.dart';
-import 'package:mental_health_care/domain/use_case/random_pick_use_case.dart';
-import 'package:mental_health_care/domain/use_case/sign_in_use_case.dart';
-import 'package:mental_health_care/domain/use_case/signup_use_case.dart';
-import 'package:mental_health_care/presentation/haru/haru_view_model.dart';
-import 'package:mental_health_care/presentation/sign_in_screen/sign_in_view_model.dart';
-import 'package:mental_health_care/presentation/signup_screen/sign_up_view_model.dart';
+
+import '../../data/data_source/haru_data_source.dart';
+import '../../data/data_source/haru_data_source_impl.dart';
+import '../../data/repository/auth_repository_impl.dart';
+import '../../data/repository/haru_repository_impl.dart';
+import '../../domain/repository/auth_repository.dart';
+import '../../domain/repository/haru_repository.dart';
+import '../../domain/use_case/get_haru_use_case.dart';
+import '../../domain/use_case/random_pick_use_case.dart';
+import '../../domain/use_case/sign_in_use_case.dart';
+import '../../domain/use_case/signup_use_case.dart';
+import '../../presentation/haru/haru_view_model.dart';
+import '../../presentation/sign_in_screen/sign_in_view_model.dart';
+import '../../presentation/signup_screen/sign_up_view_model.dart';
+
 
 final getIt = GetIt.instance;
 
